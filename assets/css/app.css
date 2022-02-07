@@ -105,7 +105,7 @@ STYLESHEET INDEXING
     --color-ghost: #C7C7D5;
     --color-mercury: #E5E5E5;
     --text-color: #525260;
-    --gradient-primary: linear-gradient(90deg, #ECF2F6 0%, rgba(236, 242, 246, 0) 70.31%);
+    --gradient-primary: #fff;
     --gradient-blue: linear-gradient(145.92deg, #579453 20.18%, #9991FF 76.9%);
     --gradient-accent: linear-gradient(180deg, #FAB8C4 0%, #FFEDF0 100%);
     --gradient-white: linear-gradient(266.3deg, rgba(236, 242, 246, 0) 7.84%, #ECF2F6 29.1%, rgba(236, 242, 246, 0) 64.32%);
@@ -819,7 +819,7 @@ input {
 }
 
 .breadcrumb-banner {
-    padding: 280px 0 200px;
+    padding: 200px 100px 70px 100px;
 }
 
 @media only screen and (max-width: 1199px) {
@@ -841,7 +841,7 @@ input {
 }
 
 .breadcrumb-banner .section-heading .title {
-    color: #000248;
+    color: #000000;
     width: 55%;
     margin-bottom: 40px;
 }
@@ -854,7 +854,7 @@ input {
 }
 
 .breadcrumb-banner .section-heading p {
-    width: 40%;
+    width: 70%;
 }
 
 @media only screen and (max-width: 991px) {
@@ -994,7 +994,7 @@ input {
 }
 
 .breadcrumb-banner .shape-group-8 .shape.shape-3 {
-    bottom: -200px;
+    bottom: 150px;
     top: auto;
 }
 
@@ -1229,7 +1229,7 @@ Pagination
 
 .section-heading {
     text-align: center;
-    margin-bottom: 60px;
+    /* margin-bottom: 60px; */
 }
 
 @media only screen and (max-width: 991px) {
@@ -1605,7 +1605,7 @@ Pagination
 
 .shape-group-8 .shape.shape-3 {
     top: 115px;
-    left: 0;
+    left: 100px;
 }
 
 .shape-group-9 .shape {
@@ -7491,7 +7491,7 @@ body.op-modal-open {
 .mainmenu > .menu-item-has-children .axil-submenu li a {
     position: relative;
     font-size: 14px;
-    text-transform: capitalize;
+    /* text-transform: capitalize; */
     color: var(--color-body);
     font-weight: 500;
     padding: 7px 15px;
