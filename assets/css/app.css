@@ -420,7 +420,8 @@ h4,
 
 h5,
 .h5 {
-    font-size: var(--h5);
+    font-family: 'Davis Sans';
+    font-size: 24px;
     line-height: 1.4;
 }
 
@@ -545,7 +546,7 @@ input {
 .form-group label {
     font-size: 14px;
     font-weight: 500;
-    color: var(--color-dark);
+    color: var(--font-body-1);
     margin-bottom: 10px;
 }
 
@@ -1006,18 +1007,18 @@ input {
 }
 
 .breadcrumb-banner.single-breadcrumb {
-    padding: 200px 0 75px;
+    padding: 200px 0 25px;
 }
 
 @media only screen and (max-width: 1199px) {
     .breadcrumb-banner.single-breadcrumb {
-        padding: 180px 0 70px;
+        padding: 180px 0 25px;
     }
 }
 
 @media only screen and (max-width: 991px) {
     .breadcrumb-banner.single-breadcrumb {
-        padding: 150px 0 40px;
+        padding: 150px 0 25px;
     }
 }
 
@@ -1051,7 +1052,7 @@ input {
     font-size: 16px;
     font-weight: 500;
     letter-spacing: -0.04em;
-    padding: 18px 55px;
+    padding: 10px 15px;
     height: auto;
     text-align: center;
     -webkit-transition: var(--transition);
@@ -4737,7 +4738,7 @@ Pagination
     -webkit-justify-content: center;
     -ms-flex-pack: center;
     justify-content: center;
-    margin-top: 20px;
+    /* margin-top: 20px; */
 }
 
 @media only screen and (max-width: 767px) {
@@ -4747,7 +4748,7 @@ Pagination
 }
 
 .more-project-btn .axil-btn {
-    padding: 24px 80px;
+    padding: 10px;
     color: var(--color-dark);
     display: block;
 }
@@ -4861,7 +4862,7 @@ Pagination
     font-size: 20px;
     font-weight: 500;
     color: var(--color-body);
-    font-family: var(--font-primary);
+    font-family: var(--font-secondary);
     margin-right: 100px;
     padding: 8px 0;
     position: relative;
@@ -4912,7 +4913,7 @@ Pagination
 }
 
 .project-column-4 .project-grid .content {
-    padding: 40px 30px;
+    padding: 20px 20px;
 }
 
 /*-------------------------
@@ -5561,11 +5562,12 @@ Pagination
 }
 
 .why-choose-us .accordion-item .accordion-button {
-    font-size: 24px;
+    font-size: 15px;
     color: var(--color-primary);
     background-color: transparent;
     box-shadow: none;
     padding: 20px 10px 20px 0;
+    font-family: 'Davis Sans';
 }
 
 .why-choose-us .accordion-item .accordion-button i {
@@ -7807,7 +7809,7 @@ body.op-modal-open {
 }
 
 .header-offcanvasmenu {
-    width: 60vw;
+    width: 30vw;
     min-width: 300px;
     -webkit-transition: all 0.8s cubic-bezier(0.77, 0.2, 0.05, 1);
     transition: all 0.8s cubic-bezier(0.77, 0.2, 0.05, 1);
@@ -9244,6 +9246,10 @@ body.op-modal-open {
     }
 }
 
+.p-line-height {
+    line-height: 2;
+}
+
 .footer-newsletter .title {
     margin-bottom: 20px;
     letter-spacing: -0.045em;
@@ -9256,7 +9262,7 @@ body.op-modal-open {
 .footer-menu-link li a {
     color: var(--color-body);
     padding: 8px 0;
-    font-size: 18px;
+    font-size: 15px;
     line-height: 1.5;
 }
 
@@ -10531,7 +10537,7 @@ body.op-modal-open {
 }
 
 .pt--200 {
-    padding-top: 200px;
+    padding-top: 70px;
 }
 
 .pt--150 {
