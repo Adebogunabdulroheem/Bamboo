@@ -60,20 +60,75 @@ STYLESHEET INDEXING
 /*-------------------------
     Variables
 -------------------------*/
-@font-face {
-    font-family: MrsEavesRoman;
-    src: url(../css/fonts/MRSEAV~8.TTF);
+@import url("https://p.typekit.net/p.css?s=1&k=bmb0rrh&ht=tk&f=28492.28494.28496.28497.28498.35105.35107&a=11442380&app=typekit&e=css"); @font-face {
+    font-family: "mrs-eaves-xl-serif";
+    src: url("https://use.typekit.net/af/fd3695/00000000000000007735b2f7/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff2"),url("https://use.typekit.net/af/fd3695/00000000000000007735b2f7/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff"),url("https://use.typekit.net/af/fd3695/00000000000000007735b2f7/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("opentype");
+    font-display: auto;
+    font-style: normal;
+    font-weight: 700;
 }
 
+@font-face {
+    font-family: "mrs-eaves-xl-serif-narrow";
+    src: url("https://use.typekit.net/af/d7a545/00000000000000007735b2f0/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3") format("woff2"),url("https://use.typekit.net/af/d7a545/00000000000000007735b2f0/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3") format("woff"),url("https://use.typekit.net/af/d7a545/00000000000000007735b2f0/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3") format("opentype");
+    font-display: auto;
+    font-style: italic;
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "mrs-eaves-xl-serif-narrow";
+    src: url("https://use.typekit.net/af/8fd461/00000000000000007735b2f4/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("woff2"),url("https://use.typekit.net/af/8fd461/00000000000000007735b2f4/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("woff"),url("https://use.typekit.net/af/8fd461/00000000000000007735b2f4/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("opentype");
+    font-display: auto;
+    font-style: italic;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "mrs-eaves-xl-serif-narrow";
+    src: url("https://use.typekit.net/af/96299a/00000000000000007735b2f6/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff2"),url("https://use.typekit.net/af/96299a/00000000000000007735b2f6/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff"),url("https://use.typekit.net/af/96299a/00000000000000007735b2f6/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("opentype");
+    font-display: auto;
+    font-style: normal;
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "mrs-eaves-xl-serif-narrow";
+    src: url("https://use.typekit.net/af/d71eb9/00000000000000007735b2f8/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"),url("https://use.typekit.net/af/d71eb9/00000000000000007735b2f8/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"),url("https://use.typekit.net/af/d71eb9/00000000000000007735b2f8/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
+    font-display: auto;
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "davis-sans";
+    src: url("https://use.typekit.net/af/7899dd/00000000000000007735de04/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"),url("https://use.typekit.net/af/7899dd/00000000000000007735de04/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"),url("https://use.typekit.net/af/7899dd/00000000000000007735de04/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
+    font-display: auto;
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "davis-sans";
+    src: url("https://use.typekit.net/af/d6ef7d/00000000000000007735ddfe/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff2"),url("https://use.typekit.net/af/d6ef7d/00000000000000007735ddfe/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff"),url("https://use.typekit.net/af/d6ef7d/00000000000000007735ddfe/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("opentype");
+    font-display: auto;
+    font-style: normal;
+    font-weight: 700;
+}
+/* @font-face {
+    font-family: MrsEavesRoman;
+    src: url(../css/fonts/MRSEAV~8.TTF);
+} */
+/* 
 @font-face {
     font-family: Davis Sans;
     src: url(../css/fonts/Fontspring-DEMO-davissans-regular.otf);
-}
+} */
 
-@font-face {
+/* @font-face {
     font-family: Davis-Italic;
     src: url(../css/fonts/Fontspring-DEMO-davissans-italic.otf);
-}
+} */
 
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400&amp;family=Poppins:wght@300;400;500;600;700;800;900&amp;display=swap");
 
@@ -114,9 +169,9 @@ STYLESHEET INDEXING
     --border-lighter: 1px solid #ECF2F6;
     --border-dark: 1px solid var(--color-ship-gray);
     --border-gray: 1px solid var(--color-gray-4);
-    --font-primary: 'MrsEavesRoman', sans-serif;
-    --font-secondary: 'Davis Sans', sans-serif;
-    --font-tatiary: 'Davis-Italic', sans-serif;
+    --font-primary: 'mrs-eaves-xl-serif', sans-serif;
+    --font-secondary: 'davis-sans', sans-serif;
+    /* --font-tatiary: 'Davis-Italic', sans-serif; */
     --font-awesome: 'Font Awesome 5 Pro';
     --transition: all 0.3s ease-in-out;
     --font-body-1: 18px;
@@ -5353,6 +5408,7 @@ Pagination
     line-height: 1.5;
     color: var(--color-gray-4);
     font-family: var(--font-tatiary);
+    font-style: italic;
     /* letter-spacing: -0.025em; */
 }
 
