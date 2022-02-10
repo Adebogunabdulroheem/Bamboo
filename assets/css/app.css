@@ -1174,7 +1174,7 @@ input {
 }
 
 .axil-btn.btn-large {
-    padding: 10px 15px;
+    padding: 7px 10px;
 }
 
 @media only screen and (max-width: 991px) {
@@ -2560,10 +2560,10 @@ Pagination
 }
 
 .slick-dot-nav .slick-dots {
-    bottom: 0;
+    bottom: -50px;
     text-align: center;
-    margin: 0 -10px;
-    width: 20%;
+    /* margin: 0 0px; */
+    /* width: 20%; */
 }
 
 .slick-dot-nav .slick-dots li {
