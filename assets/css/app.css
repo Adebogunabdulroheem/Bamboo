@@ -4803,7 +4803,7 @@ Pagination
 }
 
 .more-project-btn .axil-btn {
-    padding: 10px;
+    padding: 7px 10px;
     color: var(--color-dark);
     display: block;
 }
