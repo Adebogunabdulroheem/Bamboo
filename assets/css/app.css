@@ -148,7 +148,7 @@ STYLESHEET INDEXING
     --color-fog: #DBDEFF;
     --color-pink-shade: #FFD3DB;
     --color-peach: #FFEDDC;
-    --color-rose: #C75C6F;
+    --color-rose: #579453;
     --color-chart1: #896BA7;
     --color-chart2: #BADEFF;
     --color-body: #525260;
@@ -169,12 +169,12 @@ STYLESHEET INDEXING
     --border-lighter: 1px solid #ECF2F6;
     --border-dark: 1px solid var(--color-ship-gray);
     --border-gray: 1px solid var(--color-gray-4);
-    --font-primary: 'mrs-eaves-xl-serif', sans-serif;
+    --font-primary: 'davis-sans', sans-serif;
     --font-secondary: 'davis-sans', sans-serif;
     /* --font-tatiary: 'Davis-Italic', sans-serif; */
     --font-awesome: 'Font Awesome 5 Pro';
     --transition: all 0.3s ease-in-out;
-    --font-body-1: 18px;
+    --font-body-1: 16px;
     --font-body-2: 16px;
     --font-body-3: 14px;
     --font-body-4: 12px;
@@ -183,7 +183,7 @@ STYLESHEET INDEXING
     --h1: 40px;
     --h2: 64px;
     --h3: 48px;
-    --h4: 32px;
+    --h4: 20px;
     --h5: 24px;
     --h6: 20px;
 }
@@ -537,6 +537,7 @@ input,
     color: var(--color-text-dark);
     padding: 15px 20px;
     width: 100%;
+    border-color: var(--color-primary);
   /* -- Placeholder -- */
 }
 
@@ -1188,9 +1189,9 @@ input {
     width: 100%;
 }
 
-.axil-btn.btn-fluid {
+/* .axil-btn.btn-fluid {
     width: 100%;
-}
+} */
 
 /* -----------------------
 Pagination 
@@ -1340,7 +1341,7 @@ Pagination
 
 .section-heading p {
     font-size: var(--font-body-1);
-    width: 50%;
+    width: 80%;
     margin: 0 auto 40px;
 }
 
@@ -4104,7 +4105,7 @@ Pagination
     border: 1px solid;
     border-image-source: linear-gradient(0deg, #27272E 64.45%, rgba(74, 75, 86, 0.72) 100%);
     text-align: center;
-    padding: 70px 20px 60px;
+    padding: 30px 30px;
     border-radius: 30px;
     -webkit-transition: var(--transition);
     transition: var(--transition);
@@ -4167,7 +4168,7 @@ Pagination
 }
 
 .counterup-progress.counterup-style-2:hover, .counterup-progress.counterup-style-2.active {
-    background-color: var(--color-light);
+    /* background-color: var(--color-light); */
 }
 
 .expert-counterup-area .section-heading p {
@@ -4697,12 +4698,12 @@ Pagination
 
 .project-grid .thumbnail {
     overflow: hidden;
-    border-radius: 30px 30px 0 0;
+    border-radius: 10px 10px 0 0;
     position: relative;
 }
 
 .project-grid .thumbnail img {
-    border-radius: 30px 30px 0 0;
+    border-radius: 10px 10px 0 0;
     width: 100%;
     -webkit-transition: var(--transition);
     transition: var(--transition);
@@ -4717,8 +4718,8 @@ Pagination
 
 .project-grid .content {
     background-color: var(--color-white);
-    border-radius: 0 0 30px 30px;
-    padding: 24px 30px;
+    border-radius: 0 0 10px 10px;
+    padding: 10px 10px;
 }
 
 @media only screen and (max-width: 1199px) {
@@ -5292,7 +5293,7 @@ Pagination
 }
 
 .team-grid .content .title {
-    color: var(--color-white);
+    color: var(--color-primary);
     margin-bottom: 10px;
 }
 
@@ -5404,12 +5405,11 @@ Pagination
 }
 
 .testimonial-grid p {
-    font-size: 18px;
-    line-height: 1.5;
+    font-size: 16px;
+    /* line-height: 1.5; */
     color: var(--color-gray-4);
     font-family: var(--font-tatiary);
-    font-style: italic;
-    /* letter-spacing: -0.025em; */
+    letter-spacing: -0.025em;
 }
 
 @media only screen and (max-width: 767px) {
@@ -7560,18 +7560,18 @@ body.op-modal-open {
 }
 
 .mainmenu > .menu-item-has-children .axil-submenu li a::after {
-    content: "";
+    /* content: "";
     height: 1px;
-    width: 0;
+    width: 0; */
     background-color: var(--color-primary);
-    position: absolute;
+    /* position: absolute;
     top: 50%;
     left: 0;
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
     -webkit-transition: var(--transition);
-    transition: var(--transition);
+    transition: var(--transition); */
 }
 
 .mainmenu > .menu-item-has-children .axil-submenu li a:hover {
@@ -9332,10 +9332,10 @@ body.op-modal-open {
     color: var(--color-link);
 }
 
-.footer-bottom {
+/* .footer-bottom {
     border-top: 1px solid var(--color-ghost);
     padding: 25px 0;
-}
+} */
 
 @media only screen and (max-width: 767px) {
     .footer-copyright {
